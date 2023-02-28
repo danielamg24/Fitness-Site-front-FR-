@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Fitness</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<!-- 
+Raccourci Indentation du code (Organiser correctement son code)
+1- CTRL + A
+2- shift + alt + f 
+-->
+
+<body>
+  <header>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="index.html"><img src="img/logo.png"
+          alt="logo"></a></li>
+           <li><a href="index.html">Accueil</a></li>
+           <li><a href="offres.html">Offres</a></li>
+           <li><a href="activites.html">Activités</a></li>
+           <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id = "section-4" class="gouttiere">
+    <h2> Nous <span>contacter</span></h2>
+    <div class="container">
+
+      <div class="cadre-contact">
+        <div>
+          <h3>Fitness paris</h3>
+          <p class="rouge">Salle de sport, fitness et remise en forme</p>
+          <p><span>Adresse: </span>170 Cours du Dupont 75020 Paris</p>
+          <p><span>Tél: </span> 06 11 22 33 44</p>
+          <p><span>Email: </span> fitness@gmail.com</p>
+        </div>
+      </div>
+
+        <div class="cadre-contact">
+          <img src="img/img3.jpg" alt="img3">
+        </div>
+    </div>
+   </section>
+
+   <section id="section-8" class="gouttiere background">
+    <h2>Nous <span>contacter</span></h2>
+    <div class="container">
+      <form action="#">
+        <div class="cadre-form">
+          <label for="name">Nom</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="cadre-form">
+          <label for="firstname">Prénom</label>
+          <input type="text" name="firstname" id="firstname">
+        </div>
+        <div class="cadre-form">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="cadre-form">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="ENVOYER" class="btn">
+      </form>
+    </div>
+
+  </section>
+
+</body>
+</html>
